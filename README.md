@@ -7,7 +7,7 @@ git init
 
 git add .
 
-git remote add origin git@github.com:hack142/Project
+git remote add origin https://github.com/hack142/Project.git
 
 git commit
 
