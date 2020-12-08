@@ -19,7 +19,23 @@ git push origin master
 
 
 
+## mysql
 
+sudo apt-get install mysql-server
+
+sudo mysql_secure_installation
+
+sudo mysql 
+
+CREATE USER 'hibernate'@'localhost' IDENTIFIED BY 'hibernate';
+
+GRANT ALL PRIVILEGES ON *.* TO 'hibernate'@'localhost' WITH GRANT OPTION;
+
+SET GLOBAL validate_password.policy=LOW;
+
+
+
+sudo apt-get install openjdk-11-jdk openjdk-11-demo openjdk-11-doc openjdk-11-jre-headless openjdk-11-source
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
