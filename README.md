@@ -1,5 +1,17 @@
 # swa_prototype_1 project
 
+
+## git
+
+git init
+git add .
+git remote add origin git@github.com:hack142/Project
+git commit
+git commit -m "aa"
+git pull origin master
+git push origin master
+
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
